@@ -1,24 +1,48 @@
-# Compiled class file
-*.class
+# Java & Gradle
+/build/
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
 
-# Log file
+# IntelliJ IDEA
+/.idea/
+*.iml
+*.iws
+*.ipr
+/out/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
 *.log
 
-# BlueJ files
-*.ctxt
+# Environment
+.env
+*.env
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Selenium driver binaries (pl. ha chromedriver.exe-t is verziózol, ezt módosítsd)
+drivers/
+*.exe
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+# Test reports
+/test-output/
+reports/
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# VSCode (ha használnád)
+.vscode/
+
+# JetBrains Rider vagy más IDE extra fájlok
+/.idea_modules/
+
+# Eclipse (ha valaki Eclipse-szel nyitja meg)
+/.settings/
+/bin/
+/*.classpath
+/*.project
+
+# MacOS metadata
+__MACOSX/
+
+# Windows crash dump
+*.dmp
